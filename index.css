@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    background-color: pink;
+}
+
+.navtxt {
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.bgimage {
+    background-image: url('https://img.freepik.com/free-photo/close-up-assortment-fresh-autumnal-vegetables_23-2148647920.jpg?w=996&t=st=1707802976~exp=1707803576~hmac=ae37c4c4aa2b47f62b28f02d064530e514f183708c8420ecc35db38978b7e76a');
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+/* heading */
+.heading {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.para {
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.bts {
+    background-color: #c62943;
+    color: white;
+}
+
+.bts:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+/* home section end */
+/* about section */
+#About {
+    background-color: #fff;
+    width: 100vw;
+}
+
+.car-img-top {
+    aspect-ratio: 3/2;
+}
+
+.card-title {
+    color: #c62943;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* about end */
+/* payment */
+#Payment {
+    width: 100vw;
+}
+
+.form-label {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
